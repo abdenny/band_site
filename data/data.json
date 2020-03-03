@@ -3,7 +3,7 @@
     {
       "albumName": "American Specialties",
       "releaseDate": "January 1, 2011",
-      "coverImage": "../public/images/americanspecialties.jpg",
+      "coverImage": "../images/americanspecialties.jpg",
       "songlist": [
         "1. Her Boyfriend's Band",
         "2. Food Stamps Office",
@@ -22,7 +22,7 @@
     {
       "albumName": "Light Up Gold",
       "releaseDate": "August 18, 2012",
-      "coverImage": "../public/images/lightupgold.jpg",
+      "coverImage": "../images/lightupgold.jpg",
       "songlist": [
         "1. Master of My Craft",
         "2. Borrowed Time",
@@ -45,7 +45,7 @@
     {
       "albumName": "Sunbathing Animal",
       "releaseDate": "June 3, 2014 ",
-      "coverImage": "../public/images/sunbathinganimal.jpg",
+      "coverImage": "../images/sunbathinganimal.jpg",
       "songlist": [
         "1. Bodies Made of",
         "2. Black & White",
@@ -66,7 +66,7 @@
     {
       "albumName": "Content Nausea",
       "releaseDate": "November 28, 2014",
-      "coverImage": "../public/images/contentnausea.jpg",
+      "coverImage": "../images/contentnausea.jpg",
       "songlist": [
         "1. Everyday It Starts",
         "2. Content Nausea",
@@ -86,7 +86,7 @@
     {
       "albumName": "Human Performance",
       "releaseDate": "April 8, 2016",
-      "coverImage": "../public/images/humanperformance.jpg",
+      "coverImage": "../images/humanperformance.jpg",
       "songlist": [
         "1. Dust",
         "2. Human Performance",
@@ -107,7 +107,7 @@
     {
       "albumName": "Wide Awake!",
       "releaseDate": "May 18, 2018",
-      "coverImage": "../public/images/wideawake.jpg",
+      "coverImage": "../images/wideawake.jpg",
       "songlist": [
         "1. Total Football",
         "2. Violence",

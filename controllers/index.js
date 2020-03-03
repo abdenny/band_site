@@ -2,7 +2,18 @@ const express = require('express');
 const router = express.Router();
 let data = require('../data/data.json');
 router.get('/', (req, res) => {
-  res.render('index.ejs');
+  albumPhotos = [];
+  albumNames = [];
+
+  data.albums.forEach(albumObj => {
+    albumPhotos = albumPhotos.concat(albumObj.coverImage);
+    albumNames = albumNames.concat(albumObj.albumName);
+  });
+
+  res.render('index.ejs', {
+    coverImage: albumPhotos,
+    allAlbums: albumNames
+  });
 });
 console.log(data.albums);
 module.exports = router;
