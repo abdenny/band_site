@@ -115,12 +115,7 @@
       .nav-tabs li a {
         color: #777;
       }
-      #googleMap {
-        width: 100%;
-        height: 400px;
-        -webkit-filter: grayscale(100%);
-        filter: grayscale(100%);
-      }
+
       .navbar {
         font-family: Montserrat, sans-serif;
         margin-bottom: 0;
@@ -193,7 +188,6 @@
         <div class="collapse navbar-collapse" id="myNavbar">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="/">HOME</a></li>
-            <li><a href="/">ALBUMS</a></li>
             <li><a href="/">TOUR</a></li>
             <li><a href="/">CONTACT</a></li>
             <li class="dropdown">
@@ -216,17 +210,16 @@
 
     <!-- Container (The Band Section) -->
     <div id="albums" class="container text-center">
-      <h1>ALBUMS</h1>
+      <h1><%= name %></h1>
       <p><em>Wide Awaaaaake!</em></p>
 
       <br />
       <div class="row">
         <div class="col-sm-6">
-          <p class="text-center"><strong><%= albumNames[0] %></strong></p>
           <br />
-          <a href="#demo" data-toggle="collapse">
+          <a href="<%= image %>">
             <img
-              src="<%= albumPhotos[0] %>"
+              src="<%= image %>"
               class="img-circle person"
               alt="Random Name"
               width="255"
@@ -235,27 +228,26 @@
           </a>
         </div>
         <div class="col-sm-6">
-          <p class="text-center"><strong><%= albumNames[1] %></strong></p>
+          <p class="text-center"><strong><%= sum %></strong></p>
+          <p class="text-center">Released on: <%= release %></p>
           <br />
-          <a href="#demo2" data-toggle="collapse">
-            <img
-              src="<%= albumPhotos[1] %>"
-              class="img-circle person"
-              alt="Random Name"
-              width="255"
-              height="255"
-            />
-          </a>
+          <p class="text-center"><em> Track Listing:</em></p>
+
+          <% for (i=0; i< tracks.length; i++) { %>
+          <p><%= tracks[i] %></p>
+          <% } %>
+
+          <br />
         </div>
       </div>
     </div>
 
     <!-- Footer -->
-    <footer class="text-center">
+    <!-- <footer class="text-center">
       <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
         <span class="glyphicon glyphicon-chevron-up"></span> </a
       ><br /><br />
-    </footer>
+    </footer> -->
 
     <script>
       $(document).ready(function() {

@@ -14,8 +14,9 @@ router.get('/', (req, res) => {
 
   res.render('index.ejs', {
     coverImage: albumPhotos,
-    allAlbums: albumNames
+    allAlbums: albumNames,
+    urls: urlNames
   });
 });
-// console.log(data.albums);
+
 module.exports = router;
