@@ -4,4 +4,5 @@ let data = require('../data/data.json');
 router.get('/', (req, res) => {
   res.render('index.ejs');
 });
+console.log(data.albums);
 module.exports = router;
