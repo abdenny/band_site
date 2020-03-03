@@ -1,0 +1,129 @@
+{
+  "albums": [
+    {
+      "albumName": "American Specialties",
+      "releaseDate": "January 1, 2011",
+      "coverImage": "../public/images/americanspecialties.jpg",
+      "songlist": [
+        "1. Her Boyfriend's Band",
+        "2. Food Stamps Office",
+        "3. Mezzanine",
+        "4. American Specialties",
+        "5. Other Desert Cities",
+        "6. Square States",
+        "7. College Chess Circuit",
+        "8. Nation of Islam: Nunavut",
+        "9. Largish/Dominan",
+        "10. A.M. Reprise (Rebellious Outtake)",
+        "11. Tidal Hisses"
+      ],
+      "summary": "American Specialties is the debut studio album by American indie rock band Parquet Courts, initially released in 2011 as a limited edition cassette on Cut the Cord That... Records. A vinyl version of the album was subsequently released on Pinball! Records in 2012."
+    },
+    {
+      "albumName": "Light Up Gold",
+      "releaseDate": "August 18, 2012",
+      "coverImage": "../public/images/lightupgold.jpg",
+      "songlist": [
+        "1. Master of My Craft",
+        "2. Borrowed Time",
+        "3. Donuts Only",
+        "4. Yr No Stoner",
+        "5. Yonder Is Closer to the Heart",
+        "6. Careers in Combat",
+        "7. Light Up Gold I",
+        "8. Light Up Gold II",
+        "9. N Dakota",
+        "10. Stoned and Starving",
+        "11. No Ideas",
+        "12. Caster of Worthless Spells",
+        "13. Disney P.T.",
+        "14. Tears O Plenty",
+        "15. Picture of Health"
+      ],
+      "summary": "Light Up Gold is the second studio album by American indie rock band Parquet Courts, initially released on August 18, 2012 on the lead frontman A. Savage's label Dull Tools. It was later released on a larger label, What's Your Rupture?, in 2013 to highly positive reviews, with a Metascore of 84/100 on Metacritic."
+    },
+    {
+      "albumName": "Sunbathing Animal",
+      "releaseDate": "June 3, 2014 ",
+      "coverImage": "../public/images/sunbathinganimal.jpg",
+      "songlist": [
+        "1. Bodies Made of",
+        "2. Black & White",
+        "3. Dear Ramona",
+        "4. What Color is Blood?",
+        "5. Vienna II",
+        "6. Always Back in Town",
+        "7. She's Rolling",
+        "8. Sunbathing Animal",
+        "9. Up All Night",
+        "10. Instant Disassembly",
+        "11. Ducking & Dodging",
+        "12. Raw Milk",
+        "13. Into the Garden"
+      ],
+      "summary": "Sunbathing Animal is the third studio album by American punk rock band Parquet Courts, released on June 3, 2014 on What's Your Rupture? and Rough Trade Records."
+    },
+    {
+      "albumName": "Content Nausea",
+      "releaseDate": "November 28, 2014",
+      "coverImage": "../public/images/contentnausea.jpg",
+      "songlist": [
+        "1. Everyday It Starts",
+        "2. Content Nausea",
+        "3. Urban Ease",
+        "4. Slide Machine",
+        "5. Kevlar Walls",
+        "6. Pretty Machines",
+        "7. Psycho Structures",
+        "8. The Map",
+        "9. These Boots",
+        "10. Insufferable",
+        "11. No Concept",
+        "12. Uncast Shadow of a Southern Myth"
+      ],
+      "summary": "Content Nausea is the fourth studio album by American indie rock band Parquet Courts, released on November 28, 2014 under the name Parkay Quarts. Recorded chiefly by bandmates A. Savage and Austin Brown, the album was released less than six months after its predecessor, Sunbathing Animal."
+    },
+    {
+      "albumName": "Human Performance",
+      "releaseDate": "April 8, 2016",
+      "coverImage": "../public/images/humanperformance.jpg",
+      "songlist": [
+        "1. Dust",
+        "2. Human Performance",
+        "3. Outside",
+        "4. I was Just Here",
+        "5. Paraphrased",
+        "6. Captive of the Sun",
+        "7. Steady On My Mind",
+        "8. One Man No City",
+        "9. Berlin Got Blurry",
+        "10. Keep It Even",
+        "11. Two Dead Cops",
+        "12. Pathos Prairie",
+        "13. It's Gonna Happen"
+      ],
+      "summary": "Human Performance is the fifth studio album by American indie rock band Parquet Courts, released on April 8, 2016 on Rough Trade Records. The album was preceded by the singles 'Dust', 'Berlin Got Blurry', 'Outside', and 'Human Performance'. It received a nomination for Best Recording Package at the 2017 Grammy Awards."
+    },
+    {
+      "albumName": "Wide Awake!",
+      "releaseDate": "May 18, 2018",
+      "coverImage": "../public/images/wideawake.jpg",
+      "songlist": [
+        "1. Total Football",
+        "2. Violence",
+        "3. Before the Water Gets Too High",
+        "4. Mardi Gras Beads",
+        "5. Almost Had to Start a Fight/In and Out of Patience",
+        "6. Freebird II",
+        "7. Normalization",
+        "8. Back to Earth",
+        "9. Wide Awake!",
+        "10. NYC Observation",
+        "11. Extinction",
+        "12. Death Will Bring Change",
+        "13. Tenderness"
+      ],
+      "summary": "Wide Awake! (stylized as Wide Awaaaaake!) is the sixth studio album by American indie rock band Parquet Courts, released on May 18, 2018 on Rough Trade Records. The album was preceded by the singles 'Almost Had to Start a Fight/In and Out of Patience', 'Wide Awake', and 'Mardi Gras Beads', and succeeded by the single 'Total Football'."
+    }
+  ]
+}
