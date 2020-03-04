@@ -2,6 +2,7 @@
   "albums": [
     {
       "albumName": "American Specialties",
+      "shortName": "American_Specialties",
       "releaseDate": "January 1, 2011",
       "coverImage": "../images/americanspecialties.jpg",
       "songlist": [
@@ -21,6 +22,7 @@
     },
     {
       "albumName": "Light Up Gold",
+      "shortName": "Light_Up_Gold",
       "releaseDate": "August 18, 2012",
       "coverImage": "../images/lightupgold.jpg",
       "songlist": [
@@ -40,10 +42,11 @@
         "14. Tears O Plenty",
         "15. Picture of Health"
       ],
-      "summary": "Light Up Gold is the second studio album by American indie rock band Parquet Courts, initially released on August 18, 2012 on the lead frontman A. Savage's label Dull Tools. It was later released on a larger label, What's Your Rupture?, in 2013 to highly positive reviews, with a Metascore of 84/100 on Metacritic."
+      "summary": "Light Up Gold is the second studio album by American indie rock band Parquet Courts, initially released on August 18, 2012 on the lead frontman A. Savage's label 'Dull Tools'. It was later released on a larger label, 'What's Your Rupture?', in 2013 to highly positive reviews, with a Metascore of 84/100 on Metacritic."
     },
     {
       "albumName": "Sunbathing Animal",
+      "shortName": "Sunbathing_Animal",
       "releaseDate": "June 3, 2014 ",
       "coverImage": "../images/sunbathinganimal.jpg",
       "songlist": [
@@ -65,6 +68,7 @@
     },
     {
       "albumName": "Content Nausea",
+      "shortName": "Content_Nausea",
       "releaseDate": "November 28, 2014",
       "coverImage": "../images/contentnausea.jpg",
       "songlist": [
@@ -85,6 +89,7 @@
     },
     {
       "albumName": "Human Performance",
+      "shortName": "Human_Performance",
       "releaseDate": "April 8, 2016",
       "coverImage": "../images/humanperformance.jpg",
       "songlist": [
@@ -106,6 +111,7 @@
     },
     {
       "albumName": "Wide Awake!",
+      "shortName": "Wide_Awake",
       "releaseDate": "May 18, 2018",
       "coverImage": "../images/wideawake.jpg",
       "songlist": [

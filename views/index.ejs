@@ -206,9 +206,6 @@
                 <li><a href="#">Media</a></li>
               </ul>
             </li>
-            <li>
-              <a href="#"><span class="glyphicon glyphicon-search"></span></a>
-            </li>
           </ul>
         </div>
       </div>
@@ -311,9 +308,9 @@
         <div class="col-sm-4">
           <p class="text-center"><strong><%= albumNames[0] %></strong></p>
           <br />
-          <a href="#demo" data-toggle="collapse">
+          <a href="/albums/<%= urlNames[0] %>">
             <img
-              src="<%= albumPhotos[0] %>"
+              src="<%= coverImage[0] %>"
               class="img-circle person"
               alt="Random Name"
               width="255"
@@ -324,9 +321,9 @@
         <div class="col-sm-4">
           <p class="text-center"><strong><%= albumNames[1] %></strong></p>
           <br />
-          <a href="#demo2" data-toggle="collapse">
+          <a href="/albums/<%= urlNames[1] %>">
             <img
-              src="<%= albumPhotos[1] %>"
+              src="<%= coverImage[1] %>"
               class="img-circle person"
               alt="Random Name"
               width="255"
@@ -337,9 +334,9 @@
         <div class="col-sm-4">
           <p class="text-center"><strong><%= albumNames[2] %></strong></p>
           <br />
-          <a href="#demo3" data-toggle="collapse">
+          <a href="/albums/<%= urlNames[2] %>">
             <img
-              src="<%= albumPhotos[2] %>"
+              src="<%= coverImage[2] %>"
               class="img-circle person"
               alt="Random Name"
               width="255"
@@ -352,9 +349,9 @@
         <div class="col-sm-4">
           <p class="text-center"><strong><%= albumNames[3] %></strong></p>
           <br />
-          <a href="#demo" data-toggle="collapse">
+          <a href="/albums/<%= urlNames[3] %>">
             <img
-              src="<%= albumPhotos[3] %>"
+              src="<%= coverImage[3] %>"
               class="img-circle person"
               alt="Random Name"
               width="255"
@@ -366,9 +363,9 @@
         <div class="col-sm-4">
           <p class="text-center"><strong><%= albumNames[4] %></strong></p>
           <br />
-          <a href="#demo" data-toggle="collapse">
+          <a href="/albums/<%= urlNames[4] %>">
             <img
-              src="<%= albumPhotos[4] %>"
+              src="<%= coverImage[4] %>"
               class="img-circle person"
               alt="Random Name"
               width="255"
@@ -379,9 +376,9 @@
         <div class="col-sm-4">
           <p class="text-center"><strong><%= albumNames[5] %></strong></p>
           <br />
-          <a href="#demo2" data-toggle="collapse">
+          <a href="/albums/<%= urlNames[5] %>">
             <img
-              src="<%= albumPhotos[5] %>"
+              src="<%= coverImage[5] %>"
               class="img-circle person"
               alt="Random Name"
               width="255"
@@ -413,7 +410,7 @@
         <div class="row text-center">
           <div class="col-sm-4">
             <div class="thumbnail">
-              <img src="paris.jpg" alt="Paris" width="400" height="300" />
+              <img src="" alt="Paris" width="400" height="300" />
               <p><strong>Paris</strong></p>
               <p>Friday 27 November 2015</p>
               <button class="btn" data-toggle="modal" data-target="#myModal">
@@ -423,7 +420,7 @@
           </div>
           <div class="col-sm-4">
             <div class="thumbnail">
-              <img src="newyork.jpg" alt="New York" width="400" height="300" />
+              <img src="" alt="New York" width="400" height="300" />
               <p><strong>New York</strong></p>
               <p>Saturday 28 November 2015</p>
               <button class="btn" data-toggle="modal" data-target="#myModal">
@@ -433,12 +430,7 @@
           </div>
           <div class="col-sm-4">
             <div class="thumbnail">
-              <img
-                src="sanfran.jpg"
-                alt="San Francisco"
-                width="400"
-                height="300"
-              />
+              <img src="" alt="San Francisco" width="400" height="300" />
               <p><strong>San Francisco</strong></p>
               <p>Sunday 29 November 2015</p>
               <button class="btn" data-toggle="modal" data-target="#myModal">
