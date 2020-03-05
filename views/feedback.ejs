@@ -212,6 +212,7 @@
       <div class="row">
         <div class="col-sm-4">
           <h1 class="feedback-form-title">Send us feedback</h1>
+
           <form class="feedback-form">
             <div class="form-group">
               <label for="feedback-form-name">Name</label>
@@ -298,5 +299,14 @@
         });
       });
     </script>
+    <!-- <% if(typeof artwork !== "undefined") { %>
+  <script src="/js/pixgrid.js"></script>
+<% } %> -->
+    <% if(pageID == 'feedback') { %>
+    <script src="/js/feedback.js"></script>
+    <% } %>
+    <!-- <script src="https://cdn.socket.io/socket.io-1.4.5.js"></script>
+<script src="/js/chat.js"></script>
+<script src="/reload/reload.js"></script> -->
   </body>
 </html>

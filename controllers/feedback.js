@@ -1,8 +1,12 @@
+// purpose is to render the form
+
 const express = require('express');
 const router = express.Router();
-let data = require('../data/data.json');
 
 router.get('/feedback', (req, res) => {
-  res.render('feedback.ejs');
+  res.render('feedback.ejs', {
+    pageTitle: 'Feedback',
+    pageID: 'feedback'
+  });
 });
 module.exports = router;
